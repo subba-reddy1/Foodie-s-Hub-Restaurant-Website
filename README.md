@@ -59,7 +59,7 @@ foodies-hub/
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/foodies-hub.git
+   [git clone https://github.com/your-username/foodies-hub.git](https://github.com/subba-reddy1/Foodie-s-Hub-Restaurant-Website)
    ```
 2. Open the project folder
 3. Run `index.html` in your browser
