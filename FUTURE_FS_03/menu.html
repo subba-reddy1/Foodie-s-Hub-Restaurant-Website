@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - Foodie's Hub</title>
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Foodie's Hub</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <span class="cart">🛒 <span id="cart-count">0</span></span>
+  </nav>
+</header>
+
+<section class="menu-section">
+  <h1>Our Special Menu 🍽️</h1>
+
+  <div class="menu-grid">
+
+    <!-- CARD -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65">
+      <h3>Pizza</h3>
+      <p>₹250</p>
+      <button onclick="addToCart('Pizza', 250)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+      <h3>Burger</h3>
+      <p>₹120</p>
+      <button onclick="addToCart('Burger', 120)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e">
+      <h3>Pasta</h3>
+      <p>₹180</p>
+      <button onclick="addToCart('Pasta', 180)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
+      <h3>Salad</h3>
+      <p>₹150</p>
+      <button onclick="addToCart('Salad', 150)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38">
+      <h3>Cheese Pizza</h3>
+      <p>₹300</p>
+      <button onclick="addToCart('Cheese Pizza', 300)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
+      <h3>Grilled Chicken</h3>
+      <p>₹350</p>
+      <button onclick="addToCart('Grilled Chicken', 350)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe">
+      <h3>Sandwich</h3>
+      <p>₹140</p>
+      <button onclick="addToCart('Sandwich', 140)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587">
+      <h3>Dessert</h3>
+      <p>₹200</p>
+      <button onclick="addToCart('Dessert', 200)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1">
+      <h3>Noodles</h3>
+      <p>₹160</p>
+      <button onclick="addToCart('Noodles', 160)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b">
+      <h3>Fried Rice</h3>
+      <p>₹170</p>
+      <button onclick="addToCart('Fried Rice', 170)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f">
+      <h3>Ice Cream</h3>
+      <p>₹120</p>
+      <button onclick="addToCart('Ice Cream', 120)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3">
+      <h3>Mocktail</h3>
+      <p>₹90</p>
+      <button onclick="addToCart('Mocktail', 90)">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Foodie's Hub</p>
+</footer>
+
+<script src="js/menu.js"></script>
+
+</body>
+</html>
